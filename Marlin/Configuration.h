@@ -694,20 +694,18 @@
     // Center-to-center distance of the holes in the diagonal push rods.
     #define DELTA_DIAGONAL_ROD 218.0      // (mm)
     // Horizontal distance bridged by diagonal push rods when effector is centered.
-    #define DELTA_RADIUS 133.53             // (mm) Get this value from G33 auto calibrate Adam
+    #define DELTA_RADIUS 134.90             // (mm) Get this value from G33 auto calibrate Adam
   #endif
 
   // Distance between bed and nozzle Z home position
-  #define DELTA_HEIGHT 281.07            // (mm) Get this value from G33 auto calibrate Adam
+  #define DELTA_HEIGHT 280.15            // (mm) Get this value from G33 auto calibrate Adam
 
-  #define DELTA_ENDSTOP_ADJ { 0.00, -0.56, -0.58 } // Get these values from G33 auto calibrate Adam
- 
+  #define DELTA_ENDSTOP_ADJ { 0.00, -0.88, -0.95 } // Get these values from G33 auto calibrate Adam
 
   // Trim adjustments for individual towers
   // tower angle corrections for X and Y tower / rotate XYZ so Z tower angle = 0
   // measured in degrees anticlockwise looking from above the printer
-  #define DELTA_TOWER_ANGLE_TRIM { -0.33, 0.45, -0.12 } // Get these values from G33 auto calibrate Adam
-
+  #define DELTA_TOWER_ANGLE_TRIM { 0.10, 0.54, -0.64 } // Get these values from G33 auto calibrate Adam
 
   // Delta radius and diagonal rod adjustments (mm)
   //#define DELTA_RADIUS_TRIM_TOWER { 0.0, 0.0, 0.0 }
